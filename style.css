@@ -1,0 +1,108 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 50px 50px 0 50px;
+  background-color: #faf9f6;
+  display: flex;
+  flex-direction: column;
+  min-height: 95vh;
+  background-image: url(./assets/images/stars.png);
+  background-size: auto;
+  background-attachment: scroll;
+  color: #faf9f6;
+}
+.main {
+  flex: 1;
+}
+
+
+@media (min-width:600px){ 
+
+h1 {
+  font-size: 5rem;
+}
+
+span{
+  color: lightsalmon;
+}
+
+footer {
+  text-align: right;
+  color: midnightblue;
+}
+
+.left>img{
+  width:300px;
+  height: 200px;
+  float: left;
+  margin-right: 40px;
+}
+
+.card{
+  display: inline-block;
+  width: 45%;
+  height: 250px;
+  margin: 0;
+}
+
+h2{
+  margin-top: 20px;
+}
+
+.right>img{
+  width:300px;
+  height: 200px;
+  float: left;
+  margin-right: 40px;
+}
+
+.right{
+  float: right;
+}
+
+footer{
+  color: white;
+}
+}
+
+
+
+@media (max-width:600px){
+
+  h1 {
+    font-size: 25pt;
+    text-align: center;
+  }
+  
+  h2{
+    text-align: center;
+  }
+
+  span{
+    color: lightsalmon;
+  }
+  
+  .left>img{
+    width:50%;
+    height: 98%;
+    float: left;
+    margin-right: 40px;
+  }
+
+  p{
+    font-size: 10pt;
+  }
+
+  .right>img{
+    width:50%;
+    height: 95%;
+    float: right;
+    margin-left: 40px;
+  }
+  footer{
+    color: white;
+    text-align: center;
+  }
+  .left{
+    margin-bottom: 20px;
+  }
+}
